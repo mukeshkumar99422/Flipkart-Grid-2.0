@@ -6,22 +6,6 @@ Predict continuous traffic **demand** at specific road locations and timestamps,
 given contextual signals: weather, road type, number of lanes, landmarks,
 large-vehicle permissions, and geospatial coordinates (encoded as geohashes).
 
-This is a **tabular regression** problem. The primary levers are feature
-engineering quality and hyperparameter tuning.
-
----
-
-## Repository Structure
-
-```
-├── gridlock_2_0_optimized.ipynb   # Main notebook (end-to-end pipeline)
-├── datasets/
-│   ├── train.csv
-│   ├── test.csv
-│   └── output.csv                 # Generated submission file
-└── README.md
-```
-
 ---
 
 ## Pipeline Overview
